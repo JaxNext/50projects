@@ -1,11 +1,13 @@
 <template>
   <div class="home-page w-[100vw] h-[100vh] flex">
     <div class="toc-box box-border p-4 w-[200px] border-0 border-r border-red-200 border-solid">
-      <router-link
+      <div
         v-for="route in routes"
         :key="route.path"
-        :to="route.path"
-      >{{ route.name }}</router-link>
+        class="link text-left"
+      >
+        <router-link :to="route.path" >{{ route.name }}</router-link>
+      </div>
     </div>
     <div class="preview-box w-full box-border p-4">
       <router-view></router-view>
