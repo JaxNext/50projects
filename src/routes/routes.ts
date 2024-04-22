@@ -19,5 +19,10 @@ const routes = [
     name: 'ScrollAnima',
     component: () => import('@/pages/scrollAnima/index.vue'),
   },
+  {
+    path: '/searchInput',
+    name: 'SearchInput',
+    component: () => import('@/pages/searchInput/index.vue'),
+  },
 ]
 export default routes
