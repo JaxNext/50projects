@@ -24,5 +24,10 @@ const routes = [
     name: 'SearchInput',
     component: () => import('@/pages/searchInput/index.vue'),
   },
+  {
+    path: '/blurLoad',
+    name: 'BlurLoad',
+    component: () => import('@/pages/blurLoad/index.vue'),
+  },
 ]
 export default routes
