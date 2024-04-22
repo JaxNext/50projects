@@ -9,7 +9,7 @@
         <router-link :to="route.path" >{{ route.name }}</router-link>
       </div>
     </div>
-    <div class="preview-box w-full box-border p-4">
+    <div class="preview-box w-full box-border p-4 relative overflow-hidden">
       <router-view></router-view>
     </div>
   </div>
