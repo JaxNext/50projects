@@ -29,5 +29,10 @@ const routes = [
     name: 'ScrollAnima',
     component: () => import('@/pages/scrollAnima/index.vue'),
   },
+  {
+    path: '/splitPage',
+    name: 'SplitPage',
+    component: () => import('@/pages/splitPage/index.vue'),
+  },
 ]
 export default routes
