@@ -15,11 +15,6 @@ const routes = [
     component: () => import('@/pages/rotateNavi/index.vue'),
   },
   {
-    path: '/scrollAnima',
-    name: 'ScrollAnima',
-    component: () => import('@/pages/scrollAnima/index.vue'),
-  },
-  {
     path: '/searchInput',
     name: 'SearchInput',
     component: () => import('@/pages/searchInput/index.vue'),
@@ -28,6 +23,11 @@ const routes = [
     path: '/blurLoad',
     name: 'BlurLoad',
     component: () => import('@/pages/blurLoad/index.vue'),
+  },
+  {
+    path: '/scrollAnima',
+    name: 'ScrollAnima',
+    component: () => import('@/pages/scrollAnima/index.vue'),
   },
 ]
 export default routes
