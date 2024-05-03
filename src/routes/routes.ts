@@ -34,5 +34,10 @@ const routes = [
     name: 'SplitPage',
     component: () => import('@/pages/splitPage/index.vue'),
   },
+  {
+    path: '/formWave',
+    name: 'FormWave',
+    component: () => import('@/pages/formWave/index.vue'),
+  },
 ]
 export default routes
