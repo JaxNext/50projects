@@ -39,5 +39,10 @@ const routes = [
     name: 'FormWave',
     component: () => import('@/pages/formWave/index.vue'),
   },
+  {
+    path: '/keyCode',
+    name: 'KeyCode',
+    component: () => import('@/pages/keyCode/index.vue'),
+  },
 ]
 export default routes
