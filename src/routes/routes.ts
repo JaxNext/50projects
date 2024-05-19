@@ -49,5 +49,10 @@ const routes = [
     name: 'RandomPicker',
     component: () => import('@/pages/randomPicker/index.vue'),
   },
+  {
+    path: '/increasingNum',
+    name: 'IncreasingNum',
+    component: () => import('@/pages/increasingNum/index.vue'),
+  },
 ]
 export default routes
