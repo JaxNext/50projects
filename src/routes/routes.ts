@@ -44,5 +44,10 @@ const routes = [
     name: 'KeyCode',
     component: () => import('@/pages/keyCode/index.vue'),
   },
+  {
+    path: '/randomPicker',
+    name: 'RandomPicker',
+    component: () => import('@/pages/randomPicker/index.vue'),
+  },
 ]
 export default routes
