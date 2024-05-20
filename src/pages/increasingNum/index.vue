@@ -12,7 +12,7 @@ const numText = ref('0')
 const time = 1
 async function run() {
   let tempNum = 0
-  const step = num.value / 200
+  const step = Math.floor(Math.max(num.value / 200, 1))
   while (tempNum < num.value) {
     tempNum += step
     numText.value = tempNum.toString()
