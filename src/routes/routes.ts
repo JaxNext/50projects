@@ -54,5 +54,10 @@ const routes = [
     name: 'IncreasingNum',
     component: () => import('@/pages/increasingNum/index.vue'),
   },
+  {
+    path: '/rippleBtn',
+    name: 'RippleBtn',
+    component: () => import('@/pages/rippleBtn/index.vue'),
+  },
 ]
 export default routes
