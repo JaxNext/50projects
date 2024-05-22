@@ -59,5 +59,10 @@ const routes = [
     name: 'RippleBtn',
     component: () => import('@/pages/rippleBtn/index.vue'),
   },
+  {
+    path: '/dragNDrop',
+    name: 'DragNDrop',
+    component: () => import('@/pages/dragNDrop/index.vue'),
+  },
 ]
 export default routes
