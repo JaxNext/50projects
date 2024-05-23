@@ -64,5 +64,10 @@ const routes = [
     name: 'DragNDrop',
     component: () => import('@/pages/dragNDrop/index.vue'),
   },
+  {
+    path: '/spinTriangle',
+    name: 'SpinTriangle',
+    component: () => import('@/pages/spinTriangle/index.vue'),
+  },
 ]
 export default routes
