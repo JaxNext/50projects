@@ -69,5 +69,10 @@ const routes = [
     name: 'SpinTriangle',
     component: () => import('@/pages/spinTriangle/index.vue'),
   },
+  {
+    path: '/drawingBoard',
+    name: 'DrawingBoard',
+    component: () => import('@/pages/drawingBoard/index.vue'),
+  },
 ]
 export default routes

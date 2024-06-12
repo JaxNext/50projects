@@ -19,14 +19,15 @@ import { useDropZone } from '@vueuse/core'
 const idx = ref(1)
 const num = 4
 const boxes = ref<HTMLElement[]>([])
-const logo = ref<HTMLElement | null>()
-const overMap = ref({})
+const logo = ref()
+const overMap = ref<Boolean[]>([])
 
 onMounted(() => {
   for (let i = 0; i < boxes.value.length; i++) {
     const box = boxes.value[i]
-    const { isOverDropZone } = useDropZone(box, () => box.appendChild(logo.value[0]))
-    overMap.value[i] = isOverDropZone
+    const node = logo.value?.[0]
+    const { isOverDropZone } = useDropZone(box, () => box.appendChild(node))
+    overMap.value[i] = isOverDropZone.value
   }
 })
 </script>

@@ -13,4 +13,8 @@ export default defineConfig({
     }
   },
   plugins: [UnoCSS(), vue()],
+  build: {
+    outDir: '50pd',
+  },
+  base: './',
 })
