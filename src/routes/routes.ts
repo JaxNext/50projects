@@ -74,5 +74,10 @@ const routes = [
     name: 'DrawingBoard',
     component: () => import('@/pages/drawingBoard/index.vue'),
   },
+  {
+    path: '/notification',
+    name: 'Notification',
+    component: () => import('@/pages/notification/index.vue'),
+  },
 ]
 export default routes
