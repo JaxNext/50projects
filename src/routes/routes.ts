@@ -79,5 +79,10 @@ const routes = [
     name: 'Notification',
     component: () => import('@/pages/notification/index.vue'),
   },
+  {
+    path: '/doubleClick',
+    name: 'DoubleClick',
+    component: () => import('@/pages/doubleClick/index.vue'),
+  },
 ]
 export default routes
